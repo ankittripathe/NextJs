@@ -1,16 +1,18 @@
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center px-10 py-3 text-2xl bg-emerald-800'>
+    <div className="flex justify-between items-center px-10 py-3 mb-10 text-2xl bg-emerald-800">
       <h3>Sheriyans</h3>
-      <div className='flex gap-30'>
-        <h4>Home</h4>
-        <h4>About</h4>
-        <h4>Product</h4>
+      <div className="flex gap-18">
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/product">Product</Link>
+        <Link href="/contact">Contact</Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
