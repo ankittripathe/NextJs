@@ -8,9 +8,11 @@ body {
 
 h1{
   font-size: 60px;
+  font-weight: 600;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-decoration: underline;
+  white-space: nowrap;
 }
