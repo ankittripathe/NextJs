@@ -13,4 +13,3 @@
 - Inbuilt Routing
 - BackEnd Support
 - page.jsx => ka parent--  layout.jsx
-
