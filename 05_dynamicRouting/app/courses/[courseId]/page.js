@@ -1,16 +1,9 @@
-'use client'
-
-import { useParams } from "next/navigation";
 import React from "react";
 
 const page = () => {
-  const params = useParams()
-  // console.log(params);
-  // console.log(params.courseId);
-  
   return (
     <div>
-      <h1>{params.courseId} Course</h1>
+      <h1>XYZ Course</h1>
     </div>
   );
 };
