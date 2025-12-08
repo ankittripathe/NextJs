@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React from "react";
 
-const page = () => {
+const menPage = () => {
   return (
     <div>
       <div className="flex justify-center gap-5 py-4">
@@ -14,4 +13,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default menPage;

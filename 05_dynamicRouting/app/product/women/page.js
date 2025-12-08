@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const page = () => {
+const womenPage = () => {
   return (
     <div>
       <h1>Women's Collection</h1>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default womenPage;
