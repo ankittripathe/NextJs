@@ -1,1 +1,1 @@
-# Nextjs from sheriyans Coading Skool
+# Nextjs from Sheriyans Coading Skool
