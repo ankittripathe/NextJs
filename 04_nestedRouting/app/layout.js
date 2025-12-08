@@ -1,5 +1,5 @@
-import Navbar from "./Components/Navbar";
 import "./globals.css";
+import Navbar from "./Components/Navbar";
 
 export const metadata = {
   title: "Nested Routing",
