@@ -5,7 +5,7 @@ const page = () => {
   const params = useParams()
   console.log(params);
   console.log(params.courseId);
-  
+
   return (
     <div>
       <h1>{params.courseId} Course</h1>
